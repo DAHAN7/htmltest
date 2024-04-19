@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원 정보 수정</title>
+</head>
+
+<body>
+    <form>
+        <table border="1">
+            <tr>
+                <td colspan="2" align="center"><b>회원정보수정</b></td>
+            </tr>
+            <tr>
+                <td><label for="name">아이디</label></td>
+                <td><input id="name" type="text" name="name" value="userid"readonly /></td>
+            </tr>
+            <tr>
+                <td><label for="password">비밀번호</label></td>
+                <td><input id="password" type="password" name="password"/>
+</td>
+            </tr>
+            <tr>
+                <td><label for="confirm_password">비밀번호 확인</label></td>
+                <td><input id="confirm_password" type="password" name="confirm_password" /></td>
+            </tr>
+            <tr>
+                <td rowspan="3"><label for="address">주소</label></td>
+                <td><input id="address" type="text" name="address" placeholder="우편번호" /></td>
+                </tr>
+                <tr>
+                <td><input id="address" type="text" name="address" placeholder="주소" /></td>
+                </tr>
+                <tr>
+                <td><input id="address" type="text" name="address" placeholder="상세주소" /></td>
+            </tr>            
+            <tr>
+                <td><label for="birth">생년월일</label></td>
+                <td><input id="birth" type="text" name="birth" /></td>
+            </tr>
+            <tr>
+                <td><label for="name">이름</label></td>
+                <td><input id="name" type="text" name="name" /></td>
+            </tr>
+            <tr>
+                <td><label for="phonenumber">전화번호</label></td>
+                <td> <input type="text" id="phone1" name="phone1" maxlength="3" size="3" value="010" readonly> 
+                    <input type="text" id="phone2" name="phone2" maxlength="4" size="4" value="1234" readonly> 
+                    <input type="text" id="phone3" name="phone3" maxlength="4" size="4"value="5678" readonly></td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="2" style="text-align:left;"><input type="submit" value="수정완료" /> 
+                        <input type="submit" value="회원가입" /></td> 
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+
+</html>
